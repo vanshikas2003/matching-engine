@@ -1,9 +1,10 @@
 # uvicorn app.main:app --reload
 
-echo "fastapi
+fastapi
 uvicorn
 sortedcontainers
 websockets
 pydantic
-pytest" > requirements.txt
+pytest
+
 
