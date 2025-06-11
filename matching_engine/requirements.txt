@@ -1,1 +1,9 @@
-uvicorn app.main:app --reload
+# uvicorn app.main:app --reload
+
+echo "fastapi
+uvicorn
+sortedcontainers
+websockets
+pydantic
+pytest" > requirements.txt
+
