@@ -1,5 +1,5 @@
 from fastapi import WebSocket, APIRouter
-from app.sockets.websocket_manager import manager
+from ..sockets.websocket_manager import manager
 
 router = APIRouter()
 

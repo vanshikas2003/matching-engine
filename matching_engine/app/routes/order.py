@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.models.order import Order
+from ..models.order import Order
 
 router = APIRouter()
 
