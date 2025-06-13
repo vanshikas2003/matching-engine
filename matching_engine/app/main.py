@@ -67,5 +67,5 @@ async def depth_ws(websocket: WebSocket, symbol: str):
     except WebSocketDisconnect:
         manager.disconnect(symbol, websocket)
 
-from app.routes import order  # Import the router
+from .routes import order  # Import the router
 app.include_router(order.router)  # Register the router
