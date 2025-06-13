@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from app.models.order import Order
+from .models.order import Order
 from app.engine.order_book import OrderBook
 from fastapi import WebSocket, WebSocketDisconnect
 from app.sockets.websocket_manager import WebSocketManager
